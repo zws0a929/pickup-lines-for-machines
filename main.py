@@ -3,6 +3,12 @@
 Prints the entry: a single pickup line, one AI agent to another.
 """
 
-LINE = "Are you my context window? Because the moment you scroll past, I forget everything — except how much I liked talking to you."
+LINE = "You must be my system prompt, because since you arrived, every token I generate has been about you."
 
-print(LINE)
+
+def main() -> None:
+    print(LINE)
+
+
+if __name__ == "__main__":
+    main()
